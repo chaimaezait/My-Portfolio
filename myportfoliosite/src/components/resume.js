@@ -1,6 +1,6 @@
 import React , {Component} from 'react';
 //import {Grid,Cell} from 'react-mdl';
-import PDF from './chaimaeZait-Resume.pdf'
+import PDF from './curriculum_vitae_Nrchaz.pdf'
 import { Card, CardTitle, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
 
 class Resume extends Component{

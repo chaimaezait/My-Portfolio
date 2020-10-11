@@ -56,13 +56,26 @@ class ProjectPage extends Component{
                     <IconButton name="share"/>
                 </CardMenu>
             </Card>
+              {/* Project 4*/}
+              <Card shadow={5} style={{minwidth: '450', margin: 'auto'}}>
+                <CardTitle expand style={{color: '#fff',height:'176px', background: 'url(https://hugo.maugey.fr/img/snippets/scrapy.png) center/cover'}}>Jumia Crawler</CardTitle>
+                <CardText>
+                This spider is made with scrapy, a python library. It allows us to scrape product data from all available pages in Jumia.
+                </CardText>
+                <CardActions border>
+                   <Button colored><a href="https://github.com/chaimaezait/JumiaCrawler" rel ="noopener noreferrer" target="_blank" >Github</a></Button>
+                </CardActions>
+                <CardMenu style={{color: '#fff'}}>
+                    <IconButton name="share"/>
+                </CardMenu>
+            </Card>
                 </div>
             )
         }
         else{
             return(
                 <div className="projects-grid">
-                    <Card shadow={0} style={{width: '600px', height: '400px', background: 'url(https://media-exp1.licdn.com/dms/image/C4E2DAQEPVi8JD6cCoA/profile-treasury-image-shrink_1280_1280/0?e=1601305200&v=beta&t=M3ngdxsfHysuouD75Bd7v0Zh2jEpH-ng7CVC-0TzFHw) center / cover', margin: 'auto'}}>
+                    <Card shadow={0} style={{width: '600px', height: '400px', background: 'url(https://media-exp1.licdn.com/dms/image/C4E2DAQEPVi8JD6cCoA/profile-treasury-image-shrink_1920_1920/0?e=1602540000&v=beta&t=9F8A1b_pvBp7zGWlF5Q0HkEkLX8VDeSSOSmkZRTYRxs) center / cover', margin: 'auto'}}>
                     <CardTitle expand />
                     <CardActions style={{height: '52px', padding: '16px', background: 'rgba(0,0,0,0.2)'}}>
                     <span style={{color: '#fff', fontSize: '14px', fontWeight: '500'}}>
@@ -71,7 +84,7 @@ class ProjectPage extends Component{
                     </CardActions>
                     </Card>
 
-                    <Card shadow={0} style={{width: '600px', height: '400px', background: 'url(https://media-exp1.licdn.com/dms/image/C4D2DAQF6EBjWespi_Q/profile-treasury-image-shrink_1280_1280/0?e=1600984800&v=beta&t=6qP1XRfN_6oCqCgZnSFSo6YIFkeHTy5aClEfTIlPmeQ) center / cover', margin: 'auto'}}>
+                    <Card shadow={0} style={{width: '600px', height: '400px', background: 'url(https://media-exp1.licdn.com/dms/image/C4D2DAQGdqoj37ery7g/profile-treasury-image-shrink_1280_1280/0?e=1602540000&v=beta&t=GIIvmHdMDq7W74iJyARcFxwCm0TvZY5Ut-DpHymBdeo) center / cover', margin: 'auto'}}>
                     <CardTitle expand />
                     <CardActions style={{height: '52px', padding: '16px', background: 'rgba(0,0,0,0.2)'}}>
                     <span style={{color: '#fff', fontSize: '14px', fontWeight: '500'}}>
@@ -80,7 +93,7 @@ class ProjectPage extends Component{
                     </CardActions>
                     </Card>
 
-                    <Card shadow={0} style={{width: '600px', height: '400px', background : 'url(https://media-exp1.licdn.com/dms/image/C4D2DAQEfyuE5IrjwEA/profile-treasury-image-shrink_1920_1920/0?e=1600992000&v=beta&t=WcX9PxeJC9J7prozpKRBBT64BS4CyVHHRSTXUsfs5QI) center / cover', margin: 'auto'}}>
+                    <Card shadow={0} style={{width: '600px', height: '400px', background : 'url(https://media-exp1.licdn.com/dms/image/C4D2DAQEfyuE5IrjwEA/profile-treasury-image-shrink_1920_1920/0?e=1602540000&v=beta&t=e0nncs53RXS2qWakZ-prDb-Tk5Cxobp4U8xkZEQuPDg) center / cover', margin: 'auto'}}>
                     <CardTitle expand />
                     <CardActions style={{height: '52px', padding: '16px', background: 'rgba(0,0,0,0.2)'}}>
                     <span style={{color: '#fff', fontSize: '14px', fontWeight: '500'}}>
